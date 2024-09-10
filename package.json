@@ -4,11 +4,10 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./src",
-    "build": "npx webpack --mode production",
+    "build": "webpack --config webpack.prod.js",
     "prod": "webpack serve --open --config webpack.prod.js",
     "start": "webpack serve --open --config webpack.dev.js",
-    "json": "json-server --watch db.json",
-    "prepare": "husky"
+    "json": "json-server --watch db.json"
   },
   "keywords": [],
   "author": "",
