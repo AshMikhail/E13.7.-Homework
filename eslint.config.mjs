@@ -7,25 +7,3 @@ export default [
   {languageOptions: { globals: globals.browser }},
   ...tseslint.configs.recommended,
 ];
-
-// export default [
-//   {
-//       rules: {
-//           "no-unused-vars": "error",
-//           "no-undef": "warn"
-//       }
-//   }
-// ];
-
-// import js from "@eslint/js";
-
-// export default [
-//     js.configs.recommended,
-
-//     {
-//         rules: {
-//             "no-unused-vars": "warn",
-//             "no-undef": "warn"
-//         }
-//     }
-// ];
